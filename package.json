@@ -1,0 +1,21 @@
+{
+  "name": "@kcstoreapp/media",
+  "version": "0.0.1",
+  "description": "Cloudnary media service api",
+  "module": "main.mjs",
+  "repository": "https://github.com/kcstoreapp/media.git",
+  "author": "Eric Chan",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cloudinary": "^1.30.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "nodemon --inspect main.mjs",
+    "start": "node main.mjs"
+  }
+}
